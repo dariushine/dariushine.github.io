@@ -12,7 +12,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">Digitalum</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,11 +20,11 @@
           </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                 <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Home</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item">
@@ -37,11 +37,21 @@
             </div>
         </div>
     </nav>
-    <div class="container">
-        <p>Frederic López</p>
-        <p>Web developer</p>
-        <h2>About</h2>
-        <p>My name Frederic López, I'm from Venezuela and I'm currently learning web development through FreeCodeCamp. This is a list of skills I <del>don't</del> have:
+
+    <header>
+        
+        <div class="container text-center">
+            <h1>Frederic López</p>
+            <h2>Web developer</p>
+                
+        </div>
+        <a class="text-center" href="#about"><i class="fas fa-angle-down fa-3x"></i></a>
+    </header>
+
+    <section id="about">
+    <div class="container" >
+        <h2 >About</h2>
+        <p>Hello! My name Frederic López, I'm from Venezuela and I'm currently learning web development through FreeCodeCamp. This is a list of the web related skills I <del>don't</del> have:
             <ul>
                 <li>HTML5</li>
                 <li>CSS3</li>
@@ -58,24 +68,30 @@
         <img src="#" />
         <img src="#" />
         <h2>Contact</h2>
-        <p>You may contact me through the form below, or through the links I put below that.</p>
-        <form method="POST" action="http://formspree.io/contact@digitalum.net">
-            <p><input type="email" name="email" placeholder="Your email"></p>
-            <p><textarea name="message" placeholder="Your message"></textarea></>
-            <p><button type="submit">Send</button></p>
-          </form>
-        <p><a href="https://twitter.com/dariushine"><i class="fab fa-twitter-square"></i>@dariushine</a></p>
-        <p><a href="https://github.com/dariushine"><i class="fab fa-github-square"></i>@dariushine</a></p>
-        <p><a href="mailto:contact@digitalum.net"><i class="fas fa-envelope-square"></i>contact@digitalum.net</a></p>
-
-
-
-
+        <p>You may contact me through the form below, or through the other social media if you wish.</p>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+                <form class="form-horizontal" method="POST" action="http://formspree.io/contact@digitalum.net">
+                    <input class="form-control" type="email" name="email" placeholder="Your email">
+                    <textarea class="form-control" name="message" placeholder="Your message"></textarea>
+                    <button class="form-control" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <a href="https://twitter.com/dariushine"><i class="fab fa-twitter-square fa-3x contact-icon"></i></a>
+                <a href="https://github.com/dariushine"><i class="fab fa-github-square fa-3x contact-icon"></i></a>
+                <a href="mailto:contact@digitalum.net"><i class="fas fa-envelope-square fa-3x contact-icon"></i></a>
+            </div>
+        </div>
 
     </div>
+</section>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
