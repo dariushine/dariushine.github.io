@@ -1,5 +1,6 @@
 header {
     height: 100vh;
+    background: black;
     background-image: url("img/Cheonggyecheon-in-seoul.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,7 +19,7 @@ header {
 }
 
 
-header > a, section > .container > a {
+header > a {
     position: absolute;
     align-self: flex-end;
     color: white;
@@ -30,25 +31,40 @@ header > a, section > .container > a {
 .contact-link {
     color: yellow;
     font-style: italic;
+    
 }
 
-section {
+section > .container {
     padding-top: 68px;
 }
 
 #about {
-    height: 100vh;
-    background: gray;
+    min-height: 100vh;
+    background: linear-gradient(orange, #111);
     color: white;
+    border-bottom-style: solid;
 }
 
+.icon-size {
+    font-size: 12rem;
+}
+
+#portfolio {
+    background: linear-gradient(white, white)
+}
+
+
+
 .portfolio-img {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+.arrow-black {
+    color: black;
 }
 
 .arrow-white {
-    color: black;
-    margin-top: 5rem;
+    color: white;
 }
 
 .form-message {

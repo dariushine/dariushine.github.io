@@ -22,7 +22,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
@@ -38,7 +38,7 @@
         </div>
     </nav>
 
-    <header>
+    <header id="home">
         <div class="container text-center">
             <h1>Frederic López</h1>
             <h2>Web developer</h2>
@@ -49,48 +49,69 @@
 
     <section id="about">
         <div class="container" >
-            <h2 >About</h2>
-            <p>Hello! My name Frederic López, I'm from Venezuela and I'm currently learning web development through FreeCodeCamp. This is a list of the web related skills I <del>don't</del> have:</p>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>PHP</li>
-                <li>MySQL</li>
-            </ul>
-            <a class="text-center" href="#portfolio"><i class="fas fa-angle-down fa-3x"></i></a>
+            <h2 class="text-center">About</h2>
+            <div class="row">
+            <div class=col-md-6>
+                <h3>Hello!</h3>
+                <p>My name Frederic López, I'm from Venezuela and I'm currently learning web development on FreeCodeCamp.</p>
+                <div class="text-center"><img class="img-thumbnail" src="img/350x300.png" alt="A photo of myself. Well, it's a placeholder for now." /></div>
+            </div>
+            <div class="col-md-6">
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <h4>HTML5</h4>
+                    <i class="fab fa-html5 icon-size"></i>
+                </div>
+                <div class="col-md-6">
+                    <h4>CSS3</h4>
+                    <i class="fab fa-css3-alt icon-size"></i>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h4>JS</h4>
+                    <i class="fab fa-js-square icon-size"></i>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+            <div class="row text-center">
+                    <div class="col-md-12">
+                        <a href="#portfolio"><i class="fas fa-angle-down fa-3x arrow-white"></i></a>
+                    </div>
+        </div>
          </div>
     </section>
 
     <section id="portfolio">
         <div class="container text-center">
             <h2>Portfolio</h2>
-            <p>This is a list of the projects I have worked on:</p>
+            <p>These are some of the projects I have worked on:</p>
             <div class="row">
-                <div class="col-md-6 col-xl-4 portfolio-img"><img class="img-thumbnail" src="img/320x240.png" /></div>
-                <div class="col-md-6 col-xl-4 portfolio-img"><img class="img-thumbnail" src="img/320x240.png" /></div>
-                <div class="col-md-6 col-xl-4 portfolio-img"><img class="img-thumbnail" src="img/320x240.png" /></div>
-                <div class="col-md-6 col-xl-4 portfolio-img"><img class="img-thumbnail" src="img/320x240.png" /></div>
-                <div class="col-md-6 col-xl-4 portfolio-img"><img class="img-thumbnail" src="img/320x240.png" /></div>
-                <div class="col-md-6 col-xl-4 portfolio-img"><img class="img-thumbnail" src="img/320x240.png" /></div>
+                <div class="col-md-6 col-xl-4 portfolio-img"><img class="img-thumbnail" src="img/320x240.png" alt="A placeholder for my future projects"/></div>
+                <div class="col-md-6 col-xl-4 portfolio-img"><img class="img-thumbnail" src="img/320x240.png" alt="A placeholder for my future projects"/></div>
+                <div class="col-md-6 col-xl-4 portfolio-img"><img class="img-thumbnail" src="img/320x240.png" alt="A placeholder for my future projects"/></div>
+                <div class="col-md-6 col-xl-4 portfolio-img"><img class="img-thumbnail" src="img/320x240.png" alt="A placeholder for my future projects"/></div>
+                <div class="col-md-6 col-xl-4 portfolio-img"><img class="img-thumbnail" src="img/320x240.png" alt="A placeholder for my future projects"/></div>
+                <div class="col-md-6 col-xl-4 portfolio-img"><img class="img-thumbnail" src="img/320x240.png" alt="A placeholder for my future projects"/></div>
             </div>
-            <a class="text-center" href="#contact"><i class="fas fa-angle-down fa-3x arrow-white"></i></a>
+            <a class="text-center" href="#contact"><i class="fas fa-angle-down fa-3x arrow-black"></i></a>
 
         </div>
     </section>
 
     <section id="contact">
         <div class="container">
-            <h2>Contact me</h2>
+            <h2 class="text-center">Contact me</h2>
             <div class="row" >
                 <div class="col-md-6">
-                    
-                    <p>Send me your message with the form, or contact me through the other social media if you wish.</p>
+                    <p>Send me your message using this form, or contact me through the other social media if you wish.</p>
                     <form class="form-group" method="POST" action="http://formspree.io/contact@digitalum.net">
                         <input class="form-control" type="email" name="email" placeholder="Your email">
                         <textarea class="form-control form-message" name="message" placeholder="Your message"></textarea>
                         <button class="form-control" type="submit">Send</button>
                     </form>
-
                 </div>
                 <div class="col-md-6 text-center">
                     <h4>More:</h4>
@@ -104,9 +125,10 @@
     
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 
 </body>
 
