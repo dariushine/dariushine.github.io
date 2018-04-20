@@ -17,7 +17,8 @@ header {
     }
 }
 
-header > a {
+
+header > a, section > .container > a {
     position: absolute;
     align-self: flex-end;
     color: white;
@@ -26,6 +27,25 @@ header > a {
     
 }
 
+.contact-link {
+    color: yellow;
+    font-style: italic;
+}
+
 section {
     padding-top: 68px;
+}
+
+#about {
+    height: 100vh;
+    background: gray;
+    color: white;
+}
+
+.portfolio-img {
+    margin-bottom: 2rem;
+}
+
+.contact-form {
+    max-width: 600px;
 }
