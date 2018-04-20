@@ -46,6 +46,11 @@ section {
     margin-bottom: 2rem;
 }
 
-.contact-form {
-    max-width: 600px;
+.arrow-white {
+    color: black;
+    margin-top: 5rem;
+}
+
+.form-message {
+    height: 10rem;
 }
