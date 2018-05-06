@@ -28,6 +28,10 @@ header > a {
     
 }
 
+#contact {
+    background: lightgray;
+}
+
 .contact-link {
     color: yellow;
     font-style: italic;
@@ -38,33 +42,24 @@ section > .container {
     padding-top: 68px;
 }
 
-#about {
+#about .container {
     min-height: 100vh;
-    background: linear-gradient(orange, #111);
-    color: white;
-    border-bottom-style: solid;
+}
+
+#about a {
+    position: absolute;
 }
 
 .icon-size {
     font-size: 12rem;
 }
 
-#portfolio {
-    background: linear-gradient(white, white)
-}
-
-
-
 .portfolio-img {
     margin-bottom: 1rem;
 }
 
-.arrow-black {
+.arrow {
     color: black;
-}
-
-.arrow-white {
-    color: white;
 }
 
 .form-message {
