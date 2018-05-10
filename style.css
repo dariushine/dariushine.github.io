@@ -29,7 +29,8 @@ header > a {
 }
 
 #contact {
-    background: lightgray;
+    background: lightblue;
+    border-top-style: ridge;
 }
 
 .contact-link {
@@ -38,20 +39,17 @@ header > a {
     
 }
 
+.contact-icon {
+    color: black;
+}
+
 section > .container {
     padding-top: 68px;
 }
 
-#about .container {
-    min-height: 100vh;
-}
-
-#about a {
-    position: absolute;
-}
 
 .icon-size {
-    font-size: 12rem;
+    font-size: 10rem;
 }
 
 .portfolio-img {
