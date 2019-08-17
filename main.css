@@ -178,7 +178,7 @@ section:nth-child(2n) {
 
 #projects h1{
     text-shadow: 0.2rem 0.2rem 0.4rem #555;
-    font-size: 4rem;
+    font-size: 3rem;
     align-self: center;
     text-align: center;
     color: #333333;
@@ -235,11 +235,12 @@ section:nth-child(2n) {
 
 #contact h1 {
     margin-bottom: 0.5rem;
-    font-size: 4rem;
+    font-size: 3rem;
     align-self: center;
 }
 
 #contact > p {
+    line-height: 1.4em;
     margin-top: 0;
     font-size: 1.5rem;
     max-width: 30rem;
