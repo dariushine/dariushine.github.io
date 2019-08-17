@@ -185,11 +185,12 @@ section:nth-child(2n) {
 }
 
 #showcase {
+    margin-top: 1rem;
     max-width: 85rem;
     display: flex;
     flex-direction: row;
-    column-gap: 2rem;
-    row-gap: 2rem;
+    column-gap: 5rem;
+    row-gap: 5rem;
     align-items: flex-start;
     flex-flow: wrap;
     justify-content: center;
