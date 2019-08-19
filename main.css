@@ -133,6 +133,7 @@ section:nth-child(2n) {
     height: 100vh;
     background-image: url("img/background-seoul.jpg");
     background-size: cover;
+    background-attachment: fixed;
     min-height: 20rem;
     text-align: center;
     text-shadow: black 0 0 10px;
