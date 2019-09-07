@@ -293,6 +293,7 @@ header li a:hover {
 
 #footer-wrapper > p {
   margin-top: 3rem;
+  text-align: center;
 }
 
 #footer-wrapper ul {
@@ -310,7 +311,6 @@ header li a:hover {
   }
 
   #footer-wrapper > p {
-    text-align: center;
     grid-column: 1/3;
   }
 
