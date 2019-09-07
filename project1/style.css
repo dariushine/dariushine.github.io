@@ -326,6 +326,15 @@ footer a {
   margin-top: 0.3rem;
 }
 
+#footer-navigation a {
+  color: #999;
+  text-decoration: none;
+}
+
+#footer-navigation a:hover {
+  color: #bbb;
+}
+
 @media (min-width: 35rem) {
   #footer-wrapper {
     grid-template-columns: 1fr 1fr;
