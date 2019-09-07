@@ -234,10 +234,17 @@ header li a:hover {
   margin-bottom: 2rem;
 }
 
-#services-splash {
-  width: 50rem;
+#services > p {
+  max-width: 60rem;
   justify-self: center;
-  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#services-splash {
+  width: 55rem;
+  justify-self: center;
+  margin-bottom: 0.5rem;
 }
 
 #services img {
