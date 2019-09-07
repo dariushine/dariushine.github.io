@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Linguo &mdash; Learn a language today</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html" id="logo">Linguo</a>
+        <a id="dropdown-btn" href="javascript:void(0);" onclick="dropdown()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512">
+                <path
+                    d="M16 128h416c8.84 0 16-7.16 16-16V48c0-8.84-7.16-16-16-16H16C7.16 32 0 39.16 0 48v64c0 8.84 7.16 16 16 16zm480 80H80c-8.84 0-16 7.16-16 16v64c0 8.84 7.16 16 16 16h416c8.84 0 16-7.16 16-16v-64c0-8.84-7.16-16-16-16zm-64 176H16c-8.84 0-16 7.16-16 16v64c0 8.84 7.16 16 16 16h416c8.84 0 16-7.16 16-16v-64c0-8.84-7.16-16-16-16z" />
+            </svg>
+        </a>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Express yourself, understand others.</h1>
+    </section>
+
+    <section id="about">
+        <h1>About Linguo</h1>
+        <img src="img/about.svg" alt="" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque odio ac tortor gravida, 
+          sit amet congue nulla aliquet. Cras aliquet accumsan hendrerit. Nunc consectetur vel massa sed 
+          lobortis. Maecenas ornare, elit vel tincidunt bibendum, tortor turpis vehicula felis, eu tempor 
+          elit metus sed nulla.</p>
+        <p>Maecenas facilisis rutrum massa vitae sodales. Aliquam erat volutpat. Proin 
+            ac hendrerit lectus. Vivamus scelerisque velit quis odio feugiat tristique. Duis ullamcorper at 
+            odio convallis accumsan. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere 
+            cubilia Curae; Mauris aliquam dignissim erat, quis laoreet enim pretium vitae. Maecenas dictum nisi 
+            id mi efficitur, eget lobortis sem bibendum. Sed ac pellentesque mi, nec tempor nulla. Sed sed lacinia 
+            arcu, at rutrum urna.</p>
+
+        <div class="box-container">
+          <div class="box">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          
+          <div class="box">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>        
+          
+          <div class="box">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h1>Our services</h1>
+        <img id="services-splash" src="img/services.svg" />
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima aliquam 
+                consectetur necessitatibus praesentium, libero, voluptate eos voluptates 
+                assumenda nesciunt eum cum atque corporis ab quod fugiat perspiciatis ipsam, 
+                dicta doloribus?</p>
+        
+        
+        <div class="language box">
+        <h2>Learn spanish</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima aliquam 
+                consectetur necessitatibus praesentium, libero, voluptate eos voluptates 
+                assumenda.</p>
+        </div>
+        <img src="img/services-books.svg" />
+
+        <div class="language box">
+        <h2>Learn french</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima aliquam 
+                consectetur necessitatibus praesentium, libero, voluptate eos voluptates 
+                assumenda.</p>
+        </div>
+        <img src="img/services-eiffel.svg" />        
+        
+        <div class="language box">
+        <h2>Learn german</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima aliquam 
+                consectetur necessitatibus praesentium, libero, voluptate eos voluptates 
+                assumenda.</p>
+        </div>
+        <img src="img/services-teaching.svg" />
+    </section>
+
+    <section id="contact">
+        <h1>Get started</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <a href="#">Get in touch!</a>
+    </section>
+
+    <footer>
+      <div id="footer-wrapper">
+        <div id="footer-about">
+            <h3>About us</h3>
+            <p>As you might have noticed, this is not a real service. 
+              It's a case study. The stock image is from some awesome guys
+              at <a href="https://www.pexels.com/photo/photo-of-group-of-people-in-a-meeting-1661004/" rel="nofollow" target="_blank">Pexels</a> and the illustrations were made by  
+              <a href="https://undraw.co" rel="nofollow" target="_blank">Katerina Limpitsouni</a></p>
+        </div>
+        <div id="footer-navigation">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </div>
+        <p>Copyright ©2019 Frederic López. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
