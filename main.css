@@ -173,7 +173,7 @@ section:nth-child(2n) {
     background-color: white;
     grid-template-columns: 1fr;
     justify-items: center;
-    row-gap: 1rem;
+    grid-row-gap: 1rem;
     padding: 1rem;
 }
 
@@ -190,8 +190,6 @@ section:nth-child(2n) {
     max-width: 85rem;
     display: flex;
     flex-direction: row;
-    column-gap: 5rem;
-    row-gap: 5rem;
     align-items: flex-start;
     flex-flow: wrap;
     justify-content: center;
@@ -199,13 +197,19 @@ section:nth-child(2n) {
 }
 
 .project-tile {
+    margin-bottom: 3rem;
     text-align: center;
     background-color: #444444;
     max-width: 30rem;
     max-height: auto;
-    
     border: 0.15rem solid #aaaaaa;
     box-shadow: 0.1rem 0.1rem 0.5rem gray;
+}
+
+@media (min-width: 30rem) {
+  .project-tile {
+    margin: 1.5rem;
+  }
 }
 
 .project-tile:hover {
@@ -231,7 +235,7 @@ section:nth-child(2n) {
     grid-template-columns: 1fr;
     justify-items: center;
     padding: 0 1rem 1rem 1rem;
-    row-gap: 1rem;
+    grid-row-gap: 1rem;
     text-align: center;
 }
 
@@ -321,7 +325,7 @@ section:nth-child(2n) {
     #contact {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto 1fr 1fr;
-        column-gap: 1rem;
+        grid-column-gap: 1rem;
     }
 
     #contact h1 {
