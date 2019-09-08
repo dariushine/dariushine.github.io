@@ -178,7 +178,6 @@ section:nth-child(2n) {
 }
 
 #projects h1{
-    text-shadow: 0.2rem 0.2rem 0.4rem #555;
     font-size: 3rem;
     align-self: center;
     text-align: center;
@@ -197,7 +196,7 @@ section:nth-child(2n) {
 }
 
 .project-tile {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     text-align: center;
     background-color: #444444;
     max-width: 30rem;
