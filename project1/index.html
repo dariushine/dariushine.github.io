@@ -1,17 +1,29 @@
 <!DOCTYPE html>
+<!-- 
+  Linguo - Service Landing Page Demo
+  By Frederic López
+
+  It's supposed to be a language learning platform.
+-->
 <html lang="en">
 
 <head>
+  <!-- Meta -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Title -->
   <title>Linguo &mdash; Learn a language today</title>
+
+  <!-- Stylesheets and font -->
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="../normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <!-- Header bar: logo and nav -->
   <header>
     <a href="index.html" id="logo">Linguo</a>
     <a id="dropdown-btn" href="javascript:void(0);" onclick="dropdown()">
@@ -30,15 +42,18 @@
     </nav>
   </header>
 
+  <!-- Scroll to top arrow -->
   <a href="#home" id="arrow-up"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512">
       <path
         d="M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm143.6 28.9l72.4-75.5V392c0 13.3 10.7 24 24 24h16c13.3 0 24-10.7 24-24V209.4l72.4 75.5c9.3 9.7 24.8 9.9 34.3.4l10.9-11c9.4-9.4 9.4-24.6 0-33.9L273 107.7c-9.4-9.4-24.6-9.4-33.9 0L106.3 240.4c-9.4 9.4-9.4 24.6 0 33.9l10.9 11c9.6 9.5 25.1 9.3 34.4-.4z" />
       </svg></a>
-
+  
+  <!-- Main section -->
   <section id="home">
     <h1>Express yourself, understand others.</h1>
   </section>
 
+  <!-- About section -->
   <section id="about">
     <h1>About Linguo</h1>
     <img src="img/about.svg" alt="" />
@@ -52,10 +67,10 @@
       cubilia Curae; Mauris aliquam dignissim erat, quis laoreet enim pretium vitae. Maecenas dictum nisi
       id mi efficitur, eget lobortis sem bibendum. Sed ac pellentesque mi, nec tempor nulla. Sed sed lacinia
       arcu, at rutrum urna.</p>
-
   </section>
 
-  <section class="box-container">
+  <!-- Features subsection -->
+  <section class="box-container" id="features">
     <div class="box">
       <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512">
         <path
@@ -81,6 +96,7 @@
     </div>
   </section>
 
+  <!-- Services section -->
   <section id="services">
     <h1>Our services</h1>
     <img id="services-splash" src="img/services.svg" />
@@ -88,7 +104,7 @@
       consectetur necessitatibus praesentium, libero, voluptate eos voluptates
       assumenda?</p>
 
-
+    <!-- Spanish -->
     <div class="language box">
       <h2>Learn spanish</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima aliquam
@@ -97,6 +113,7 @@
     </div>
     <img src="img/services-books.svg" />
 
+    <!-- French -->
     <div class="language box">
       <h2>Learn french</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima aliquam
@@ -105,6 +122,7 @@
     </div>
     <img src="img/services-eiffel.svg" />
 
+    <!-- German -->
     <div class="language box">
       <h2>Learn german</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima aliquam
@@ -114,12 +132,15 @@
     <img src="img/services-teaching.svg" />
   </section>
 
+
+  <!-- Contact section -->
   <section id="contact">
     <h1>Get started</h1>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
     <a href="https://digitalum.com.ve">Get in touch!</a>
   </section>
 
+  <!-- Footer -->
   <footer>
     <div id="footer-wrapper">
       <div id="footer-about">
@@ -131,6 +152,7 @@
           <a href="https://undraw.co" rel="nofollow" target="_blank">Katerina Limpitsouni</a></p>
       </div>
       <div id="footer-navigation">
+        <!-- Footer navigation -->
         <h3>Navigation</h3>
         <ul>
           <li><a href="#home">Home</a></li>
@@ -143,7 +165,12 @@
     </div>
   </footer>
 
+  <!-- Scripts -->
+  
+  <!-- Smooth scroll script-->
   <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+
+  <!-- Custom code script (scroll plugin setup, and onclick for the navigation button) -->
   <script src="script.js"></script>
 </body>
 
