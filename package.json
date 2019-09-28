@@ -1,0 +1,25 @@
+{
+  "name": "dariushine.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dariushine/dariushine.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dariushine/dariushine.github.io/issues"
+  },
+  "homepage": "https://github.com/dariushine/dariushine.github.io#readme",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "htmlhint": "^0.11.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}

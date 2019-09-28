@@ -1,0 +1,4 @@
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/apartment.jpg");
+  border-top: 1px solid #555;
+}
