@@ -71,6 +71,7 @@
           <div class="col-lg-9">
             <input type="text" class="form-control" id="listing" name="listing" placeholder="Keywords or Listing ID">
           </div>
+          <!-- Button that appears beside the first field when the screen size is large -->
           <div class="col-lg-3 d-none d-lg-block">
             <button type="submit" class="btn btn-secondary btn-block">Search</button>
           </div>
@@ -97,6 +98,7 @@
             <input type="number" min="1" class="form-control" id="bathrooms" name="bathrooms" placeholder="Bathrooms">
           </div>
         </div>
+        <!-- Button that appears at the end of the form when the screen size is not large -->
         <button type="submit" class="btn btn-secondary btn-block mt-3 d-lg-none">Search</button>
       </form>
     </div>
@@ -201,7 +203,7 @@
       <div class="row mt-3">
         <!-- Sales Service Image -->
         <div class="col-md-6 d-none d-md-block">
-            <img src="./img/housing-6.png" class="img-fluid img-thumbnail d-block mx-auto" />
+          <img src="./img/housing-6.png" class="img-fluid img-thumbnail d-block mx-auto" />
         </div>
         <!-- Sales Service -->
         <div class="col-md-6">
@@ -216,7 +218,7 @@
         </div>
         <!-- Sales Service Image (different layout) -->
         <div class="col-md-6 d-md-none">
-            <img src="./img/housing-6.png" class="img-fluid img-thumbnail d-block mx-auto" />
+          <img src="./img/housing-6.png" class="img-fluid img-thumbnail d-block mx-auto" />
         </div>
       </div>
     </div>
@@ -240,8 +242,10 @@
           <p>contact@totallylegitemail.com</p>
           <!-- Google Maps Iframe -->
           <div class="embed-responsive embed-responsive-21by9">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45174728.64670552!2d-73.64322444051612!3d-46.285074451381995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa4b9967b3390754b%3A0x6e52be1f740f2075!2sAnt%C3%A1rtida!5e0!3m2!1ses!2sve!4v1569788028582!5m2!1ses!2sve" allowfullscreen></iframe>
-        </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45174728.64670552!2d-73.64322444051612!3d-46.285074451381995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa4b9967b3390754b%3A0x6e52be1f740f2075!2sAnt%C3%A1rtida!5e0!3m2!1ses!2sve!4v1569788028582!5m2!1ses!2sve"
+              allowfullscreen></iframe>
+          </div>
         </div>
         <!-- Contact Form -->
         <div class="col-lg-6">
@@ -284,11 +288,39 @@
 
 
   <!-- Footer -->
-  <footer class="text-center">
-    <div class="container-fluid bg-dark text-light py-4">
-      <p class="mb-0">Copyright Frederic Lopez 2019</p>
-  </div>
+  <footer>
+    <div class="container-fluid text-light py-4">
+      <div class="container mt-2">
+        <div class="row justify-content-between">
+          <!-- Page info -->
+          <div class="col-md-7 col-lg-6">
+            <h4>About us</h4>
+            <p class="w-lg-75">As you might have noticed, this is not a real service.
+              It's a case study. I made this using the Bootstrap framework. 
+              The stock images were downloaded from Pexels.
+              If you like my work and would like to contact me,
+              feel free to do so! <a href="https://digitalum.com.ve">Here's my portfolio.</a></p>
+          </div>
+          <!-- Footer navigation -->
+          <div id="footer-navigation" class="col-md-4">
+
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <p class="text-center mt-3 mb-0">Copyright ©2019 <a href="https://digitalum.com.ve">Frederic López</a>. All rights
+        reserved.</p>
+    </div>
+    
   </footer>
+  <!-- Bootstrap and its dependencies -->
   <script src="./vendor/jquery/jquery.min.js"></script>
   <script src="./vendor/popper.js/popper.min.js"></script>
   <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
