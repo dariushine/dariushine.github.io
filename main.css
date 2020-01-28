@@ -63,9 +63,7 @@ nav ul li a {
     background-color: #242a30;
     display: inline-block;
     text-align:center;
-    display: block;
     width: 100%;
-    
     font-size: 1.2rem;
     text-decoration: none;
     color: #cccccc;
@@ -188,7 +186,6 @@ section:nth-child(2n) {
     margin-top: 1rem;
     max-width: 85rem;
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
     flex-flow: wrap;
     justify-content: center;
@@ -280,22 +277,19 @@ section:nth-child(2n) {
 
 
 #contact form * {
+    margin-top: 1rem;
     border-color: #B0CFE0;
     border-style: solid;
     width: 100%;
 }
 
-#contact form * {
-    margin-top: 1rem;
-}
-
-#contact form input:first-child {
-    margin: 0;
-}
-
 #contact form input {
     height: 2rem;
     padding: 1rem;
+}
+
+#contact form input:first-child {
+  margin: 0;
 }
 
 #contact form textarea {
@@ -344,12 +338,12 @@ section:nth-child(2n) {
     fill: white;
 }
 
-#contact li:hover {
-    margin-top: -3.5rem;
+#contact li+li {
+  margin-left: 1.5rem;
 }
 
-#contact li+li {
-    margin-left: 1.5rem;
+#contact li:hover {
+    margin-top: -3.5rem;
 }
 
 footer p {
