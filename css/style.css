@@ -1,6 +1,140 @@
+
 .jumbotron {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/background-seoul.jpg");
   background-size: cover;
   background-attachment: fixed;
   border-top: 1px solid #555;
+}
+
+.slider-nav img + img {
+  margin-left: 0.6rem;  
+}
+
+.intromission {
+  box-shadow: 0px 1px 5px black;
+}
+
+#about h1 {
+  margin-bottom: 1rem;
+}
+
+#img-container img {
+  width: 100%;
+  max-width: 500px;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+#about h2 {
+  margin-bottom: 1.5rem;
+}
+
+
+
+#about-skills {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+
+#about-skills svg {
+  width: 3rem;
+  height: 4rem;
+  
+}
+
+.skill-element {
+  margin-bottom: 1rem;
+}
+
+#skill-html svg path {
+  fill: #e34c26;
+}
+
+#skill-javascript svg path {
+  fill: #000000;
+}
+
+#skill-css svg path {
+  fill: #264de4;
+}
+
+#skill-bootstrap svg path {
+  fill: #0275d8;
+}
+
+#skill-react svg path {
+  fill: #51cbeb;
+}
+
+
+
+@media (min-width: 1200px) {
+
+
+  #about-text {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  #about-skills {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  
+  #about-skills svg {
+    width: 3.5rem;
+    height: 4.5rem;
+  }
+}
+
+#portfolio h1 {
+  margin-bottom: 2rem;
+}
+
+#portfolio ul {
+  list-style-type: square;
+}
+
+
+#contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.slider-description {
+  box-shadow: 0.2rem 0.2rem 0.8rem black;
+}
+
+#portfolio {
+  background: linear-gradient(to left,#292999,#1C1C4B)
+}
+
+#contact ul li {
+  display: inline-block;
+  position: relative;
+  margin-left: 0.8rem;
+  top: 0;
+  transition-property: top;
+  transition-duration: 30ms;
+}
+
+#contact ul li:hover {
+  top: -0.5rem;
+}
+
+#contact svg {
+  width: 3rem;
+}
+
+section, footer {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+footer a {
+  color: darkgray;
 }
