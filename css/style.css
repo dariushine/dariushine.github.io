@@ -1,13 +1,14 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
 .jumbotron {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/background-seoul.jpg");
   background-size: cover;
   background-attachment: fixed;
   border-top: 1px solid #555;
-}
-
-.slider-nav img + img {
-  margin-left: 0.6rem;  
+  min-height: 50vh;
+  margin-top: 3.5rem;
 }
 
 .intromission {
@@ -31,7 +32,9 @@ p {
   margin-bottom: 1.5rem;
 }
 
-
+.slider-nav img + img {
+  margin-left: 1rem;
+}
 
 #about-skills {
   padding-left: 2rem;
@@ -95,22 +98,21 @@ p {
   margin-bottom: 2rem;
 }
 
-#portfolio ul {
-  list-style-type: square;
+#contact {
+  min-height: 75vh;
 }
-
 
 #contact ul {
   list-style: none;
   padding: 0;
 }
 
-.slider-description {
-  box-shadow: 0.2rem 0.2rem 0.8rem black;
+#portfolio {
+  background: linear-gradient(to left,#222,#111);
 }
 
-#portfolio {
-  background: linear-gradient(to left,#292999,#1C1C4B)
+#portfolio img {
+  max-width: 100%;
 }
 
 #contact ul li {
