@@ -5,6 +5,10 @@ $('.modal').on("show.bs.modal", function () {
   });
 });   
 
+$('.lazyLoad').on("load", function (e) {
+  console.log(e);
+})
+
 var scroll = new SmoothScroll('a[href*="#"]', {
   header: 'nav',
   speed: 900
