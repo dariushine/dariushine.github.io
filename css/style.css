@@ -1,3 +1,21 @@
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading {
+  animation: loading 2s linear infinite;
+  width: 3rem;
+  background: transparent !important;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -86,10 +104,21 @@ p {
   left: 0;
 }
 
-.modal img {
-  max-width: 100%;
-  box-shadow: 0.1rem 0.1rem 1rem black;
+.modal {
+  text-align: center;
 }
+
+.modal-content {
+  background: transparent;
+  border: none;
+}
+
+.loaded-image {
+  max-width: 100%;
+  box-shadow: 0.2rem 0.2rem 0.8rem black;
+}
+
+
 
 .button-container {
   position: absolute;

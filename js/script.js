@@ -6,7 +6,11 @@ $('.modal').on("show.bs.modal", function () {
 });   
 
 $('.lazyLoad').on("load", function (e) {
-  console.log(e);
+  const loadingURL = './img/svg/loading.svg';
+  if( $(this).attr('src') != loadingURL && $(this).hasClass('loading') ) {
+    $(this).removeClass('loading');
+    $(this).addClass('loaded-image')
+  }
 })
 
 var scroll = new SmoothScroll('a[href*="#"]', {
