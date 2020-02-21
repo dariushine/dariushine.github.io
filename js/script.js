@@ -8,7 +8,7 @@ $('.modal').on("show.bs.modal", function () {
 });   
 
 $('.lazyLoad').on("load", function (e) {
-  const loadingURL = './img/svg/spinner.svg';
+  const loadingURL = 'img/svg/spinner.svg';
   if( $(this).attr('src') != loadingURL && $(this).hasClass('loading') ) {
     $(this).removeClass('loading');
     $(this).addClass('loaded-image')
