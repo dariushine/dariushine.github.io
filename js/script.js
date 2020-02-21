@@ -1,7 +1,7 @@
 $('.modal').on("show.bs.modal", function () {
   $(this).find('.lazyLoad').each(function(){
       var img = $(this);
-      setTimeout(() => img.attr('src', img.data('src')),5000);
+      img.attr('src', img.data('src'));
   });
 });   
 
