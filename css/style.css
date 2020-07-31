@@ -1,0 +1,38 @@
+/* $font-family-base, $font-size-base, and $line-height-base */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+#about img {
+  width: 100%;
+}
+
+@media (min-width: 1110px) {
+  #profiles {
+    padding: 0 14rem 0 14rem;
+  }
+}
+
+.profilelink {
+  text-align: center;
+}
+
+i {
+  font-size: 3.8rem;
+}
+
+.profilelink i {
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+#portfolio ul {
+  list-style: none;
+  padding: 0;
+}
+
+#portfolio ul li {
+  display: inline;
+}
