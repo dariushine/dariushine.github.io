@@ -5,6 +5,12 @@ body {
   font-size: 18px;
 }
 
+#hero {
+  background-image: url("../img/pexels-hristo-fidanov-1252869.jpg");
+  background-size: cover;
+  min-height: calc(70vh - 59px);
+}
+
 #about img {
   width: 100%;
 }
@@ -19,6 +25,10 @@ body {
   text-align: center;
 }
 
+.profilelink a:hover {
+  text-decoration: none;
+}
+
 i {
   font-size: 3.8rem;
 }
@@ -26,6 +36,22 @@ i {
 .profilelink i {
   vertical-align: middle;
   margin-right: 0.5rem;
+}
+
+#skills {
+  background-color: #e5e5e5;
+}
+
+#portfolio .row:not(:last-child) {
+  padding-bottom: 3rem;
+  border-bottom: solid #e5e5e5 0.2rem;
+}
+
+@media (min-width: 1200px) {
+  #portfolio .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }
 
 #portfolio ul {
