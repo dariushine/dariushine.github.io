@@ -51,17 +51,17 @@
     <section id="hero" class="d-flex align-items-center">
       <div class="jumbotron jumbotron-fluid text-light w-100 bg-transparent">
         <div class="container">
-          <div class="ml-2 ml-sm-4 pl-4">
+          <div class="ml-sm-2 ml-md-4 pl-4">
             <h1 class="display-4 d-block d-md-none">Frederic López</h1>
             <h1 class="display-3 d-none d-md-block">Frederic López</h1>
             <h2>Web Developer</h2>
-            <a href="#contact" class="btn px-4 btn-primary">Contact me</a>
+            <a href="#contact" class="btn px-4 btn-primary text-light">Contact me</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="about" class="py-5 mt-lg-4">
+    <section id="about" class="py-5">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 col-md-6">
@@ -92,27 +92,46 @@
             <a
               href="https://www.linkedin.com/in/frederic-lopez/"
               target="_blank"
-              ><i class="fab fa-linkedin d-block d-sm-inline-block"></i>Frederic
-              López</a
+              title="Linkedin Profile"
+              aria-label="Visit my Linkedin Profile"
+              ><i
+                class="fab fa-linkedin d-block d-sm-inline-block"
+                aria-hidden="true"
+              ></i
+              ><span class="sr-only">Linkedin: </span>Frederic López</a
             >
           </div>
           <div class="col-6 col-md-4 profilelink">
-            <a href="https://github.com/dariushine" target="_blank"
-              ><i class="fab fa-github d-block d-sm-inline-block"></i
-              >@dariushine</a
+            <a
+              href="https://github.com/dariushine"
+              target="_blank"
+              title="Github Profile"
+              aria-label="Visit my Github Profile"
+              ><i
+                class="fab fa-github d-block d-sm-inline-block"
+                aria-hidden="true"
+              ></i
+              ><span class="sr-only">Github: </span>@dariushine</a
             >
           </div>
           <div class="mt-3 mt-md-0 col-12 col-md-4 profilelink">
-            <a href="https://codepen.io/dariushine" target="_blank"
-              ><i class="fab fa-codepen d-block d-sm-inline-block"></i
-              >@dariushine</a
+            <a
+              href="https://codepen.io/dariushine"
+              target="_blank"
+              title="Codepen Profile"
+              aria-label="Visit my Codepen Profile"
+              ><i
+                class="fab fa-codepen d-block d-sm-inline-block"
+                aria-hidden="true"
+              ></i
+              ><span class="sr-only">Codepen: </span>@dariushine</a
             >
           </div>
         </div>
       </div>
     </section>
 
-    <section id="skills" class="py-4">
+    <section id="skills" class="py-4 bg-primary">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
@@ -157,8 +176,8 @@
 
     <section id="portfolio" class="py-5">
       <h2 class="text-center">Portfolio</h2>
-      <div class="container">
-        <div class="row py-4 mt-4">
+      <div class="container pb-5">
+        <div class="row py-4 px-md-2 mt-4">
           <div class="col-md-6 order-md-1 text-md-right">
             <img src="./img/linguo_thumb.png" class="img-fluid" alt="" />
           </div>
@@ -180,7 +199,7 @@
             >
           </div>
         </div>
-        <div class="row py-4">
+        <div class="row py-4 px-md-2 mt-4">
           <div class="col-md-6">
             <img src="./img/vigil_thumb.png" class="img-fluid" alt="" />
           </div>
@@ -203,7 +222,7 @@
             >
           </div>
         </div>
-        <div class="row py-4">
+        <div class="row py-4 px-md-2 mt-4">
           <div class="col-md-6 order-md-1 text-md-right">
             <img src="./img/technical_thumb.png" class="img-fluid" alt="" />
           </div>
@@ -216,10 +235,15 @@
               <li class="border border-secondary p-1 rounded">HTML</li>
               <li class="border border-secondary p-1 rounded">CSS</li>
             </ul>
-            <a href="https://codepen.io/dariushine/full/dxKYmz" target="_blank" class="btn btn-primary px-4 mt-3">View</a>
+            <a
+              href="https://codepen.io/dariushine/full/dxKYmz"
+              target="_blank"
+              class="btn btn-primary px-4 mt-3"
+              >View</a
+            >
           </div>
         </div>
-        <div class="row py-4">
+        <div class="row py-4 px-md-2 mt-4">
           <div class="col-md-6">
             <img src="./img/solitario_thumb.png" class="img-fluid" alt="" />
           </div>
@@ -231,35 +255,55 @@
             <ul>
               <li class="border border-secondary p-1 rounded">Java</li>
             </ul>
-            <a href="https://github.com/dariushine/solitario" target="_blank" class="btn btn-primary px-4 mt-3">View</a>
+            <a
+              href="https://github.com/dariushine/solitario"
+              target="_blank"
+              class="btn btn-primary px-4 mt-3"
+              >View</a
+            >
           </div>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="pb-5 ">
+    <section id="contact" class="pb-5">
       <h2 class="text-center">Contact me</h2>
       <div class="container">
         <div class="contact-profiles text-center mt-4">
-          <a href="https://www.linkedin.com/in/frederic-lopez/" target="_blank"
-            ><i class="fab fa-linkedin"></i
+          <a
+            href="https://www.linkedin.com/in/frederic-lopez/"
+            target="_blank"
+            aria-label="Visit my Linkedin Profile"
+            title="Visit my Linkedin Profile"
+            ><i class="fab fa-linkedin" aria-hidden="true"></i
           ></a>
 
-          <a href="https://github.com/dariushine" target="_blank" class="ml-4"
-            ><i class="fab fa-github"></i
+          <a
+            href="https://github.com/dariushine"
+            target="_blank"
+            class="ml-4"
+            aria-label="Visit my Github Profile"
+            title="Visit my Github Profile"
+            ><i class="fab fa-github" aria-hidden="true"></i
           ></a>
 
-          <a href="https://codepen.io/dariushine" target="_blank" class="ml-4"
-            ><i class="fab fa-codepen"></i
+          <a
+            href="https://codepen.io/dariushine"
+            target="_blank"
+            class="ml-4"
+            aria-label="Visit my Codepen Profile"
+            title="Visit my Codepen Profile"
+            ><i class="fab fa-codepen" aria-hidden="true"></i
           ></a>
         </div>
-        <form class="mt-4">
+        <form class="mt-4" action="https://formcarry.com/s/ivrK6oHIGpw" method="POST" accept-charset="UTF-8">
           <div class="form-group">
             <input
               type="text"
               class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
+              id="inputName"
+              aria-describedby="name"
+              name="name"
               placeholder="Name"
             />
           </div>
@@ -267,25 +311,29 @@
             <input
               type="email"
               class="form-control"
-              id="exampleFormControlInput1"
+              id="inputEmail"
+              name="email"
               placeholder="Email address"
             />
           </div>
           <div class="form-group mt-4">
             <textarea
               class="form-control"
-              id="exampleFormControlTextarea1"
+              id="inputMessage"
+              name="message"
               rows="1"
               placeholder="Message"
             ></textarea>
           </div>
-          <button type="submit" class="btn btn-primary px-5 mt-4">Submit</button>
+          <button type="submit" class="btn btn-primary px-5 mt-4">
+            Submit
+          </button>
         </form>
       </div>
     </section>
 
     <footer class="text-center py-4 bg-dark text-light">
-      Copyright ©2020 Frederic López. All rights reserved.
+      © 2020 Frederic López. All rights reserved.
     </footer>
 
     <script src="./vendor/jquery/jquery.min.js"></script>

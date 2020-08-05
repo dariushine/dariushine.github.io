@@ -1,5 +1,9 @@
 /* $font-family-base, $font-size-base, and $line-height-base */
 
+h2 {
+  font-weight: bold;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
@@ -19,11 +23,16 @@ body {
 
 #hero {
   padding-top: 56px;
-  background-image: url("../img/pexels-hristo-fidanov-1252869.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/pexels-simon-matzinger-1323550.jpg");
   background-size: cover;
-  height: 25rem;
-  max-height: 100vh;
-  box-shadow: black 1px 1px 4px;
+  background-position: center bottom;
+  height: 100vh;
+}
+
+@media (min-width: 768px) {
+  #hero {
+  max-height: 30rem;
+  }
 }
 
 #about img {
@@ -48,13 +57,14 @@ i {
   font-size: 3.8rem;
 }
 
+
 .profilelink i {
   vertical-align: middle;
   margin-right: 0.5rem;
 }
 
 #skills .card {
-  box-shadow: gray 0.2rem 0.2rem 0.5rem;
+  box-shadow: #333 0.2rem 0.2rem 0.5rem;
 }
 
 #skills {
@@ -63,9 +73,18 @@ i {
 
 @media (min-width: 768px) {
 #portfolio .row:nth-child(2n) {
-  background-color: #e5e5e5 !important;
+  background-color: #e5e5e5;
 }
 }
+
+#portfolio .row {
+  transition: background-color 0.1s ease-in;
+}
+
+#portfolio .row:hover {
+  background-color: #eee;
+}
+
 @media (min-width: 1200px) {
   #portfolio .container {
     padding-left: 3rem;
@@ -86,6 +105,10 @@ i {
   color: #666;
 }
 
+#portfolio .container {
+  border-bottom: 3px solid var(--primary);
+}
+
 #contact form {
   margin: auto;
   padding: 1rem;
@@ -101,4 +124,18 @@ i {
 #contact .form-control:focus {
   box-shadow: none;
   border-color: #888;
+}
+
+#contact i {
+  position: relative;
+  top: 0;
+  transition: top 80ms ease;
+}
+
+#contact i:hover {
+  top: -0.3rem;
+}
+
+a {
+  color: black;
 }

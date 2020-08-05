@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "bootstrap": "^4.5.1",
     "htmlhint": "^0.14.1",
+    "sass": "^1.26.10",
     "stylelint": "^13.6.1",
     "stylelint-config-standard": "^20.0.0"
   },
