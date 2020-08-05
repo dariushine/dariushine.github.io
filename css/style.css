@@ -30,6 +30,16 @@ body {
 }
 
 @media (min-width: 768px) {
+
+#about .container {
+  position: relative;
+  top: -1.5rem;
+  border-radius: 0.3rem;
+  box-shadow: #333 0.2rem 0.2rem 0.5rem;
+}
+}
+
+@media (min-width: 768px) {
   #hero {
   max-height: 30rem;
   }
@@ -39,11 +49,6 @@ body {
   width: 100%;
 }
 
-@media (min-width: 1110px) {
-  #profiles {
-    padding: 0 14rem 0 14rem;
-  }
-}
 
 .profilelink {
   text-align: center;
