@@ -1,0 +1,146 @@
+/* $font-family-base, $font-size-base, and $line-height-base */
+
+h2 {
+  font-weight: bold;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+#nav {
+  transition: background-color 0.4s ease;
+}
+
+#nav a {
+  color: #eee;
+}
+
+#nav a:hover {
+  color: #fff;
+}
+
+#hero {
+  padding-top: 56px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/pexels-simon-matzinger-1323550.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  height: 100vh;
+}
+
+@media (min-width: 768px) {
+
+#about .container {
+  position: relative;
+  top: -1.5rem;
+  border-radius: 0.3rem;
+  box-shadow: #333 0.2rem 0.2rem 0.5rem;
+}
+}
+
+@media (min-width: 768px) {
+  #hero {
+  max-height: 30rem;
+  }
+}
+
+#about img {
+  width: 100%;
+}
+
+
+.profilelink {
+  text-align: center;
+}
+
+.profilelink a:hover {
+  text-decoration: none;
+}
+
+i {
+  font-size: 3.8rem;
+}
+
+
+.profilelink i {
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+#skills .card {
+  box-shadow: #333 0.2rem 0.2rem 0.5rem;
+}
+
+#skills {
+  background-color: #e5e5e5;
+}
+
+@media (min-width: 768px) {
+#portfolio .row:nth-child(2n) {
+  background-color: #e5e5e5;
+}
+}
+
+#portfolio .row {
+  transition: background-color 0.1s ease-in;
+}
+
+#portfolio .row:hover {
+  background-color: #eee;
+}
+
+@media (min-width: 1200px) {
+  #portfolio .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+#portfolio ul {
+  list-style: none;
+  padding: 0;
+}
+
+#portfolio ul li {
+  display: inline;
+}
+
+#portfolio p, #skills p {
+  color: #666;
+}
+
+#portfolio .container {
+  border-bottom: 3px solid var(--primary);
+}
+
+#contact form {
+  margin: auto;
+  padding: 1rem;
+  max-width: 45rem;
+}
+
+#contact .form-control {
+  border-width: 0 0 2px 0;
+  border-color: #bbb;
+  border-radius: 0;
+}
+
+#contact .form-control:focus {
+  box-shadow: none;
+  border-color: #888;
+}
+
+#contact i {
+  position: relative;
+  top: 0;
+  transition: top 80ms ease;
+}
+
+#contact i:hover {
+  top: -0.3rem;
+}
+
+a {
+  color: black;
+}
