@@ -4,6 +4,20 @@ h2 {
   font-weight: bold;
 }
 
+.profilelink a {
+  color: #333;
+}
+
+#aboutImage {
+  background: #333;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.profilelink a:hover {
+  color: #666;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
