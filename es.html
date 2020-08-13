@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./vendor/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="./vendor/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Frederic López - Desarrollador Web</title>
+  </head>
+
+  <body>
+    <nav id="nav" class="navbar navbar-expand-sm navbar-dark fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">Digitalum</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#hero">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Información</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portafolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero" class="d-flex align-items-center">
+      <div class="jumbotron jumbotron-fluid text-light w-100 bg-transparent">
+        <div class="container">
+          <div class="ml-sm-2 ml-md-4 pl-4">
+            <h1 class="display-4">Hola, soy Frederic López</h1>
+            <h2>un Desarrollador Web</h2>
+            <a href="#contact" class="btn px-4 btn-primary text-light mt-2"
+              >Contáctame</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="bg-primary">
+      <div class="container bg-light p-5">
+        <h2 class="d-md-none mb-4">Acerca de mí</h2>
+
+        <div class="row">
+          <div class="col-lg-5 col-md-6">
+            <img
+              src="https://dariushine.github.io/img/svg/development.svg"
+              id="aboutImage"
+              alt="Un desarrollador de software"
+            />
+          </div>
+          <div class="col-lg-7 col-md-6 mt-4 mt-lg-0">
+            <h2 class="d-none d-md-block mb-4">Acerca de mí</h2>
+            <p>
+              Hola, soy Frederic López, un desarrollador web de Venezuela.
+            </p>
+            <p>
+              Me especializo en desarrollo frontend, teniendo conocimientos en
+              HTML, CSS y JS y usando diversos frameworks como Jquery, Bootstrap
+              para el desarrollo de sitios web estáticos y React para
+              aplicaciones web. He trabajado en diversos proyectos usando PHP y
+              Node.js, y he usado PostgreSQL y MySQL como sistemas de manejo de
+              bases de datos.
+            </p>
+          </div>
+        </div>
+        <div class="row mt-5" id="profiles">
+          <div class="col-6 col-md-4 profilelink">
+            <a
+              href="https://www.linkedin.com/in/frederic-lopez/"
+              target="_blank"
+              title="Perfil de Linkedin"
+              aria-label="Visita mi perfil en Linkedin"
+              ><i
+                class="fab fa-linkedin d-block d-sm-inline-block"
+                aria-hidden="true"
+              ></i
+              ><span class="sr-only">Linkedin: </span>Frederic López</a
+            >
+          </div>
+          <div class="col-6 col-md-4 profilelink">
+            <a
+              href="https://github.com/dariushine"
+              target="_blank"
+              title="Perfil de Github"
+              aria-label="Visita mi perfil en Github"
+              ><i
+                class="fab fa-github d-block d-sm-inline-block"
+                aria-hidden="true"
+              ></i
+              ><span class="sr-only">Github: </span>@dariushine</a
+            >
+          </div>
+          <div class="mt-3 mt-md-0 col-12 col-md-4 profilelink">
+            <a
+              href="https://codepen.io/dariushine"
+              target="_blank"
+              title="Perfil de Codepen"
+              aria-label="Visita mi perfil en Codepen"
+              ><i
+                class="fab fa-codepen d-block d-sm-inline-block"
+                aria-hidden="true"
+              ></i
+              ><span class="sr-only">Codepen: </span>@dariushine</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="pt-4 pt-md-0 pb-4 bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card p-2 text-center h-100">
+              <i class="fas fa-desktop mt-3"></i>
+              <div class="card-body">
+                <h5 class="card-title">Frontend</h5>
+                <p class="card-text">
+                  Diseño y desarrollo sitios usando HTML, CSS, JS y frameworks
+                  como Bootstrap o React.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-3 mt-md-0">
+            <div class="card p-2 text-center h-100">
+              <i class="fas fa-server mt-3"></i>
+              <div class="card-body">
+                <h5 class="card-title">Backend</h5>
+                <p class="card-text">
+                  Desarrollo el backend usando multiples tecnologías. Tengo
+                  conocimientos en PHP, Node, MySQL y PostgreSQL
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-3 mt-md-0">
+            <div class="card p-2 text-center h-100">
+              <i class="fas fa-user mt-3"></i>
+              <div class="card-body">
+                <h5 class="card-title">UI/UX</h5>
+                <p class="card-text">
+                  Me importan los detalles. Me enfoco en desarrollar sitios que
+                  proporcionen la mejor experiencia al usuario y presenten la UI
+                  ideal.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="pt-5">
+      <h2 class="text-center">Portafolio</h2>
+      <div class="container pb-5">
+        <div class="row py-4 px-md-2 mt-4">
+          <div class="col-md-6 order-md-1 text-md-right">
+            <a href="./project1/index.html" target="_blank">
+              <img
+                src="./img/linguo_thumb.png"
+                class="img-fluid"
+                alt="Linguo thumbnail"
+              />
+            </a>
+          </div>
+          <div class="col-md-6 mt-2 mt-md-0">
+            <h3>Linguo</h3>
+            <p class="mt-3">
+              Landing page para plataforma de aprendizaje de idiomas. Utiliza
+              mayormente CSS Grid para la distribución de los elementos.
+            </p>
+            <ul>
+              <li class="border border-secondary p-1 rounded">HTML</li>
+              <li class="border border-secondary p-1 rounded">CSS</li>
+              <li class="border border-secondary p-1 rounded">JS</li>
+            </ul>
+            <a
+              href="./project1/index.html"
+              target="_blank"
+              class="btn btn-primary px-4 mt-3"
+              >Ver</a
+            >
+          </div>
+        </div>
+        <div class="row py-4 px-md-2 mt-4">
+          <div class="col-md-6">
+            <a href="./project2/index.html" target="_blank">
+              <img
+                src="./img/vigil_thumb.png"
+                class="img-fluid"
+                alt="Vigilant Fortnight thumbnail"
+              />
+            </a>
+          </div>
+          <div class="col-md-6 mt-2 mt-md-0">
+            <h3>Vigilant Fortnight</h3>
+            <p class="mt-3">
+              Landing page para sitio de ventas de propiedades, utilizando una
+              versión personalizada de Bootstrap.
+            </p>
+            <ul>
+              <li class="border border-secondary p-1 rounded">HTML</li>
+              <li class="border border-secondary p-1 rounded">CSS</li>
+              <li class="border border-secondary p-1 rounded">JS</li>
+              <li class="border border-secondary p-1 rounded">SASS</li>
+              <li class="border border-secondary p-1 rounded">Bootstrap 4</li>
+            </ul>
+            <a
+              href="./project2/index.html"
+              target="_blank"
+              class="btn btn-primary px-4 mt-3"
+              >Ver</a
+            >
+          </div>
+        </div>
+        <div class="row py-4 px-md-2 mt-4">
+          <div class="col-md-6 order-md-1 text-md-right">
+            <a
+              href="https://codepen.io/dariushine/full/rNVrdmm"
+              target="_blank"
+            >
+              <img
+                src="./img/calc_thumb.png"
+                class="img-fluid"
+                alt="React calculator thumbnail"
+              />
+            </a>
+          </div>
+          <div class="col-md-6 mt-2 mt-md-0">
+            <h3>Calculadora React</h3>
+            <p class="mt-3">
+              Una calculadora capaz de realizar multiples operaciones con
+              numeros grandes y decimales, que utiliza React con Material UI.
+            </p>
+            <ul>
+              <li class="border border-secondary p-1 rounded">CSS</li>
+              <li class="border border-secondary p-1 rounded">JS</li>
+              <li class="border border-secondary p-1 rounded">React</li>
+              <li class="border border-secondary p-1 rounded">Material UI</li>
+            </ul>
+            <a
+              href="https://codepen.io/dariushine/full/rNVrdmm"
+              target="_blank"
+              class="btn btn-primary px-4 mt-3"
+              >Ver</a
+            >
+          </div>
+        </div>
+        <div class="row py-4 px-md-2 mt-4">
+          <div class="col-md-6">
+            <a href="https://github.com/dariushine/solitario" target="_blank">
+              <img
+                src="./img/solitario_thumb.png"
+                class="img-fluid"
+                alt="Solitary thumbnail"
+              />
+            </a>
+          </div>
+          <div class="col-md-6 mt-2 mt-md-0">
+            <h3>Solitario</h3>
+            <p class="mt-3">
+              Clasico juego de cartas, solitario, hecho en Java.
+            </p>
+            <ul>
+              <li class="border border-secondary p-1 rounded">Java</li>
+            </ul>
+            <a
+              href="https://github.com/dariushine/solitario"
+              target="_blank"
+              class="btn btn-primary px-4 mt-3"
+              >Ver</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5">
+      <h2 class="text-center">Contáctame</h2>
+      <div class="container">
+        <div class="contact-profiles text-center mt-4">
+          <a
+            href="https://www.linkedin.com/in/frederic-lopez/"
+            target="_blank"
+            aria-label="Visita mi perfil de Linkedin"
+            title="Visita mi perfil de Linkedin"
+            ><i class="fab fa-linkedin" aria-hidden="true"></i
+          ></a>
+
+          <a
+            href="https://github.com/dariushine"
+            target="_blank"
+            class="ml-4"
+            aria-label="Visita mi perfil de Github"
+            title="Visita mi perfil de Github"
+            ><i class="fab fa-github" aria-hidden="true"></i
+          ></a>
+
+          <a
+            href="https://codepen.io/dariushine"
+            target="_blank"
+            class="ml-4"
+            aria-label="Visita mi perfil de Codepen"
+            title="Visita mi perfil de Codepen"
+            ><i class="fab fa-codepen" aria-hidden="true"></i
+          ></a>
+        </div>
+        <form
+          class="mt-4"
+          action="https://formcarry.com/s/ivrK6oHIGpw"
+          method="POST"
+          accept-charset="UTF-8"
+        >
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="inputName"
+              aria-describedby="name"
+              name="name"
+              placeholder="Nombre"
+            />
+          </div>
+          <div class="form-group mt-4">
+            <input
+              type="email"
+              class="form-control"
+              id="inputEmail"
+              name="email"
+              placeholder="Correo Electrónico"
+            />
+          </div>
+          <div class="form-group mt-4">
+            <textarea
+              class="form-control"
+              id="inputMessage"
+              name="message"
+              rows="1"
+              placeholder="Mensaje"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary px-5 mt-4">
+            Enviar
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="text-center py-4 bg-dark text-light">
+      © 2020 Frederic López.
+    </footer>
+
+    <script src="./vendor/jquery/jquery.min.js"></script>
+    <script src="./vendor/popper.js/popper.min.js"></script>
+    <script src="./vendor/bootstrap/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
